@@ -1,0 +1,94 @@
+body {
+    background-color: pink;
+    margin: 0;
+    font-family: Arial;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100%;
+    height: 150px;
+}
+
+button {
+    background-color: pink;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.cart {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.about, .ceo, .home
+{
+    background-color: rgba(255,255,255,0.9);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ceo-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}

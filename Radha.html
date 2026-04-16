@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Glow Cosmetics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo-title">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Glow Cosmetics</h1>
+    </div>
+
+    <nav>
+    <a href="index.html">
+        <button>Home</button></a>
+    <a href="Radha.html">
+        <button>Products</button></a>
+</nav>
+</header>
+
+<section class="products" id="products-section">
+
+    <div class="product">
+        <img src="lipstick-removebg-preview.png" alt="Lipstick">
+        <h3>Lipstick</h3>
+        <p>₹499</p>
+        <button onclick="addToCart('Lipstick', 499)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="Foundation-Photoroom.png" alt="Foundation">
+        <h3>Foundation</h3>
+        <p>₹899</p>
+        <button onclick="addToCart('Foundation', 899)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="perfume.png" alt="Perfume">
+        <h3>Perfume</h3>
+        <p>₹1299</p>
+        <button onclick="addToCart('Perfume', 1299)">Add to Cart</button>
+    </div>
+
+</section>
+
+<section class="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items"></ul>
+    <h3>Total: ₹<span id="total">0</span></h3>
+    <button onclick="checkout()">Checkout</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
